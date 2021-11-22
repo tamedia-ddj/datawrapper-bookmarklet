@@ -2,7 +2,9 @@
 
 Add links to edit all DataWrapper charts in the current page.
 
-**Usage**: copy-paste this javascript in a new bookmark.
+#### Usage
+
+Copy-paste this javascript in a new bookmark.
 
 Reminder: don’t run any bookmarklet you don’t trust/understand.
 
@@ -22,9 +24,8 @@ javascript: if (window.location.hostname == "datawrapper.dwcdn.net") {
         .split("/")[0];
       const dw_edit_url =
         "https://app.datawrapper.de/chart/" + dw_id + "/publish";
-      console.log("Edit URL found:", dw_edit_url);
       let a = document.createElement("a");
-      a.innerText = "Editer le graphique " + dw_id;
+      a.innerText = "Edit chart " + dw_id;
       a.href = dw_edit_url;
       a.target = "_blank";
       i.parentNode.insertBefore(a, i);
@@ -32,3 +33,7 @@ javascript: if (window.location.hostname == "datawrapper.dwcdn.net") {
   });
 }
 ```
+
+#### Preview
+
+![Screenshot](screen.png)
