@@ -2,6 +2,8 @@
 
 Add links to edit all DataWrapper charts in the current page.
 
+**Usage**: copy-paste this javascript in a new bookmark.
+
 Reminder: don’t run any bookmarklet you don’t trust/understand.
 
 ```
