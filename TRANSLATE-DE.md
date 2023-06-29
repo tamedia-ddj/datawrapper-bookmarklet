@@ -4,7 +4,7 @@ Fügt Links hinzu, um DW-Grafiken mit dem Übersetzungstool zu übersetzen.
 
 Übersicht:
 
-> ![Screenshot](screen-translate.png)
+> ![Screenshot](screen-translate-de.png)
 
 #### Verwendung
 
