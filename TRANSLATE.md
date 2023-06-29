@@ -4,13 +4,13 @@ Ajoute des liens pour traduire les graphiques Datawrapper avec l’outil de trad
 
 Aperçu:
 
-![Screenshot](screen-translate.png)
+> ![Screenshot](screen-translate.png)
 
 #### Usage
 
 Copier-coller le code JavaScript du champ ci-dessous dans un nouveau signet:
 
-![Add bookmark](add-bookmark.png)
+> ![Add bookmark](add-bookmark.png)
 
 Rappel: un bookmarklet n’est pas anodin, il peut être utilisé par des pirates pour voler votre session Facebook par exemple. Il ne faut pas exécuter un bookmarklet suspect.
 
