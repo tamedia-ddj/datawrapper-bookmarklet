@@ -14,9 +14,17 @@ javascript: if (window.location.hostname == "datawrapper.dwcdn.net") {
       const dw_edit_url =
         "https://app.datawrapper.de/chart/" + dw_id + "/publish";
       let a = document.createElement("a");
-      a.innerText = "Edit chart " + dw_id;
+      a.innerText = "Éditer " + dw_id;
       a.href = dw_edit_url;
       a.target = "_blank";
+      a.style.textDecoration = "none";
+      a.style.padding = "1rem";
+      a.style.border = "1px solid steelblue";
+      a.style.borderRadius = "99px";
+      a.style.display = "inline-block";
+      a.style.color = "steelblue";
+      a.style.fontSize = "1.5rem";
+      a.style.fontFamily = "sans-serif";
       i.parentNode.insertBefore(a, i);
     }
   });
